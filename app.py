@@ -6,10 +6,10 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 CORS(app)
-genai.configure(api_key="AIzaSyAx4V_O82o_nCgMnP8C-F5XCt2LIGSxwwk")  # Replace with your actual API key
+genai.configure(api_key="<YOUR API KEY>")  # Replace with your actual API key
 
 # Create a GenerativeModel object
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-pro-fake-news-detector")
 
 @app.route('/generate_text', methods=['POST'])
 def generate_text():
