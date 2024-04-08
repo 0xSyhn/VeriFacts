@@ -1,23 +1,23 @@
 # VeriFacts - Your AI-Powered News Verification Tool
 
-What is VeriFacts?
+## What is VeriFacts?
 
 VeriFacts is a powerful tool that leverages advanced AI models (RAG models) to help you determine the authenticity of news articles and URLs.
 Trained on the FEVER dataset and integrated with LangChain Agent, VeriFacts ensures comprehensive and up-to-date news verification.
 
 
-Why Use VeriFacts?
+## Why Use VeriFacts?
 
 Combat Misinformation: In the era of fake news, VeriFacts empowers you to separate fact from fiction.
 Stay Informed: Make confident decisions based on reliable information.
 Easy to Use: Our intuitive browser extension streamlines the verification process.
 
 
-Installation
+## Installation
 
 Fork the repository: Create a copy of the VeriFacts code on your own GitHub account.  
 Install dependencies: Run the following command in your terminal:  
-Bash
+### Bash
 ```
 pip install -r requirements.txt  
 ```
@@ -28,11 +28,11 @@ Toggle the "Developer mode" switch in the top-right corner.
 Load the extension:  
 Click "Load unpacked" and select the extensions folder within the VeriFacts project directory.  
 Add API keys:  
-Obtain API keys from Gemini and Serpapi.  
+Obtain API keys from Gemini.  
 Securely store your API keys within the app.py file (follow best practices for API key management).  
 Run the application:  
 Execute the following command in your terminal:  
-Bash  
+### Bash  
 ```
   python app.py
 ```
