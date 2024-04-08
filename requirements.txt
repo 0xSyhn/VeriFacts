@@ -2,6 +2,5 @@ flask
 requests
 jsonify
 google-generativeai
-serpapi
 Openai
 gemini-embeddings
