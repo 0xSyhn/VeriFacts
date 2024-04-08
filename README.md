@@ -36,10 +36,10 @@ Execute the following command in your terminal:
 ```
   python app.py
 ```
-Access the extension in Chrome:  
+### Access the extension in Chrome:  
 Navigate to your Chrome extensions, locate VeriFacts, and enable it.  
-Usage  
-
+  
+### Usage
 Open the VeriFacts extension in your Chrome browser.  
 Input your query: Enter the text of a news article or the URL you want to verify.  
 VeriFacts analyzes and provides a verdict: The extension will carefully analyze your input and provide a clear indication of whether the information is likely real or fake.  
